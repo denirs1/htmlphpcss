@@ -1,0 +1,107 @@
+body, html {
+width:100%;
+height:100%;
+margin:0;
+padding:0;
+}
+
+.calo{
+width:100%;
+height:100%;
+margin:0;
+padding:0;
+}
+.baner{
+width:100%;
+
+
+
+}
+.menu{
+max-width:100%;
+max-height:10%;
+background-color:#C1E1A6;
+margin:auto;
+}
+
+ul > li {
+	display:inline;
+}
+a{
+
+Padding:0px 125px 0px 125px;
+}
+
+@media all and (max-width:1024px) {
+	ul > li >a {
+	padding:0;
+margin:0;
+width:100%;
+}
+
+}
+
+.main{
+ background-repeat:no-repeat;
+width:100%;
+height:100%;
+background-image:URL(tyl.png);
+font-style:italic;
+color:red;
+}
+.main2{
+
+
+font-style:italic;
+color:red;
+}
+.tekst{
+font-style:arial;
+font-size:22px;
+}
+.lewo{
+background-color:#DA1010;
+width:50%;
+height:50%;
+float:left;
+}
+.prawo{
+background-color:#00FF3C;
+margin-right:auto;
+width:50%;
+height:50%;
+float:left;
+}
+.main3{
+background-color:#A4E755;
+height:50%;
+font-style:italic;
+color:red;
+}
+.main4{
+background-color:yellow;
+}
+.dol{
+clear:both;
+float:bottom;
+width:100%;
+height:15vh;
+background-color:grey;
+text-align:center;
+}
+body{
+background:#4A96AD;
+}
+h1{
+padding:0;
+margin-top:0;
+}
+li:hover{
+height:10px;
+background-color:#B71427;
+
+}
+a{
+text-decoration: none;
+color:black;
+}

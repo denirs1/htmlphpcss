@@ -1,0 +1,121 @@
+<!doctype html>
+<head>
+
+<meta charset="utf-8">
+
+<style>
+*
+{
+font-size:30px;
+
+}
+div
+{
+border-style:solid;
+width:150px;
+height:150px;
+}
+
+
+.spany
+    {
+        background-color:chocolate;
+    }
+
+span{
+background-color:blue;
+border-color:yellow;
+border-style:solid;
+}
+
+p{
+height:30px;
+width:120px;
+border-style:solid;
+font-size:20px;
+}
+
+
+.d3
+    {
+height:200px;
+width:200px;
+border-style:solid
+}
+
+a:link 
+    {
+        color:red;
+    }
+a:visited
+    {
+        color:cyan;
+    }
+.najedz:hover
+    {
+        background-color:coral;
+        
+    }
+.focus:focus
+    {
+     background-color:darkmagenta;   
+    }
+.nacisnij:active
+    {
+        background-color:salmon;
+    }
+span:not(.spany)
+    {
+        background-color:red;
+    }
+p:first-child
+    {
+        background-color:forestgreen;
+    }
+p:last-child
+    {
+                background-color:green;
+
+    }
+span:only-child
+    {
+        background-color:yellow;
+    }
+</style>
+</head>
+
+<body>
+
+<a href="http://www.onet.pl"> onet</a>
+<div class="najedz">
+hover
+
+</div>
+
+<input type="text" value="focus" class="focus"/>
+<input type="text" value="focus" class="focus"/>
+
+<div class="nacisnij">
+active
+</div>
+
+
+<span class="spany"> span1  </span>
+<span >span 2 not  </span>
+<span class="spany">span3  </span>
+<div class="d3">
+<p> p1 first-child</p>
+
+<p> p2   child</p>
+<p> p3 last-child</p>
+</div>
+
+<div>
+<span class="s1"> only-child </span>
+</div>
+
+</body>
+
+</html>
+
+
