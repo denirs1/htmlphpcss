@@ -44,10 +44,11 @@ width:100%;
 .main{
  background-repeat:no-repeat;
 width:100%;
-height:100%;
-background-image:URL(tyl.png);
+height:100vh;
+background-image:URL(tyl.jpg);
 font-style:italic;
 color:red;
+background-size:100%;
 }
 .main2{
 
@@ -79,7 +80,7 @@ font-style:italic;
 color:red;
 }
 .main4{
-background-color:yellow;
+background-color:#CCCC33;
 }
 .dol{
 clear:both;
